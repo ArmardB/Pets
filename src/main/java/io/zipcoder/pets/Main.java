@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
+/*
         Scanner scanner = new Scanner(System.in);
         HashMap<String, String> pets = new HashMap<String, String>();
         int numberOfPets;
@@ -32,7 +32,11 @@ public class Main {
         for (String key: pets.keySet() ) {
             System.out.println("Type of Pet: " + key + "Name: " + pets.get(key));
         }
+*/
 
+        Pet dog = new Dog("Steve");
+        System.out.println(dog.speak());
+        System.out.println(dog.getName());
 
     }
 

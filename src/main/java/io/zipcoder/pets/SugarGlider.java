@@ -5,7 +5,16 @@ package io.zipcoder.pets;
  */
 public class SugarGlider extends Pet {
 
-    private String name;
+    public SugarGlider() {
+        super();
+    }
 
+    public SugarGlider(String name) {
+        super(name);
+    }
 
+    @Override
+    public String speak() {
+        return "Squeak!";
+    }
 }

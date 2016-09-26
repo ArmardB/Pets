@@ -25,8 +25,8 @@ public class PetTest {
     }
 
     @Test
-    public void getNameTest(){
-        pet.setName("Ginger");
+    public void setNameTest(){
+        pet.setName("Snowflake");
         String actual = pet.getName();
         String expected = "Snowflake";
         Assert.assertEquals("Should return Snowflake", expected, actual);

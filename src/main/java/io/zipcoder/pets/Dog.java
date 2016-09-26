@@ -5,5 +5,16 @@ package io.zipcoder.pets;
  */
 public class Dog extends Pet {
 
-    private String name;
+    public Dog() {
+        super();
+    }
+
+    public Dog(String name) {
+        super(name);
+    }
+
+    @Override
+    public String speak() {
+        return "Woof!";
+    }
 }

@@ -5,17 +5,25 @@ package io.zipcoder.pets;
  */
 public class Pet {
 
-    private String name;
+    protected String name;
+
+    public Pet() {
+        this.name = "Sad, no-name pet.";
+    }
+
+    public Pet(String name) {
+        this.name = name;
+    }
 
     public String speak(){
-        return "";
+        return "Hey, please take me home.";
     }
 
     public String getName(){
-        return "";
+        return this.name;
     }
 
     public void setName(String name){
-
+        this.name = name;
     }
 }
