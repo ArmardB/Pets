@@ -7,5 +7,5 @@ public class SugarGlider extends Pet {
 
     private String name;
 
-    
+
 }

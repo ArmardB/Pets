@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35c2fc1d-4ddc-4f26-a933-6975a6a5550f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pets.iml" afterPath="$PROJECT_DIR$/pets.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/SugarGlider.java" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/SugarGlider.java" />
     </list>
     <ignored path="pets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +43,27 @@
       <file leaf-file-name="Pet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PetTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SugarGlider.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SugarGlider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/SugarGlider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,10 +121,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/SugarGlider.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Cat.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetTest.java" />
       </list>
     </option>
   </component>
@@ -133,8 +149,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1579" />
-    <option name="y" value="170" />
+    <option name="x" value="1636" />
+    <option name="y" value="226" />
     <option name="width" value="1260" />
     <option name="height" value="709" />
   </component>
@@ -201,6 +217,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,15 +702,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474918239737</updated>
-      <workItem from="1474918241232" duration="1413000" />
+      <workItem from="1474918241232" duration="1992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1413000" />
+    <option name="totallyTimeSpent" value="1992000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1579" y="170" width="1260" height="709" extended-state="0" />
+    <frame x="1636" y="226" width="1260" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -743,10 +763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/SugarGlider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -755,6 +775,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -772,20 +800,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/SugarGlider.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="430">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
